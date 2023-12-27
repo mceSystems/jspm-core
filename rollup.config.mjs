@@ -63,8 +63,6 @@ export default {
   input,
   output: {
     dir: 'nodelibs/browser',
-    entryFileNames: '[name].js',
-    chunkFileNames: 'chunk-[hash].js',
     format: 'esm'
   },
   onwarn () {},
